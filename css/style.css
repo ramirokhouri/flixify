@@ -4,10 +4,11 @@
 }
 
 .header {
-  height: 75vh;
-  background-image: url("../img/main/main_s.jpg");
+  height: 85vh;
   background-position: center center;
   background-size: cover;
+  background-image: linear-gradient(transparent, rgba(33, 37, 41, 1)),
+    url("../img/main/main_s.jpg");
 }
 
 .header-category {
@@ -35,13 +36,15 @@
 
 @media (min-width: 768px) {
   .header {
-    background-image: url("../img/main/main_m.jpg");
+    background-image: linear-gradient(transparent, rgba(33, 37, 41, 1)),
+      url("../img/main/main_m.jpg");
   }
 }
 
 @media (min-width: 1200px) {
   .header {
-    background-image: url("../img/main/main_l.jpg");
+    background-image: linear-gradient(transparent, rgba(33, 37, 41, 1)),
+      url("../img/main/main_l.jpg");
   }
 }
 
@@ -51,19 +54,41 @@
 }
 
 .card {
-  min-width: 16vw;
+  min-width: 15vw;
 }
 
 .card:hover {
   filter: contrast(75%);
 }
 
-.carousel img {
-  height: 25vh;
+.movie-carousel img {
+  height: 20vh;
+}
+
+.category-carousel .card {
+  min-width: 30vw;
+}
+
+.category-carousel img {
+  height: 17vh;
 }
 
 @media (min-width: 920px) {
-  .carousel img {
-    min-height: 35vh;
+  .movie-carousel img {
+    min-height: 30vh;
+  }
+  .category-carousel img {
+    min-height: 25vh;
+  }
+}
+
+@media (max-height: 720px) {
+  .header p {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .header p {
+    display: none;
   }
 }
