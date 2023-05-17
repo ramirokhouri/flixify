@@ -1,0 +1,48 @@
+#icono {
+  font-size: 2em;
+}
+
+footer {
+  font-size: small;
+}
+
+.btn-secondary {
+  opacity: 0.7;
+}
+a:hover {
+  opacity: 0.7;
+
+  transform: scale(1.05);
+}
+.season-image {
+  width: 100px;
+  height: auto;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.card-img-top {
+  height: 95%;
+  width: 20;
+  border-radius: 10px;
+}
+.play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-container:hover .play-overlay {
+  opacity: 1;
+}
+.imgd {
+  height: 100px;
+}
+.image-container:hover {
+  filter: contrast(50%);
+  transition: 0.3s ease-in-out;
+}
