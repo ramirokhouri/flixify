@@ -4,209 +4,247 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Acerca de</title>
+    <title>📺 Flixify</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- Bootstrap 5 Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/acercade.css">
 </head>
 
 <body>
     <div class="container-fluid bg-dark text-light">
-        <section>
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center">
-                    <h1 class="display-6 ">Acerca de Flixify</h1>
-                </div>
-                <div class="row text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ipsa laborum inventore sed quo
-                        dolores molestiae non porro. Recusandae iste nulla saepe consectetur rem dolore, non eum soluta
-                        nesciunt quasi?
-                        Voluptatem id error repellendus quibusdam dolor nostrum qui magnam, fuga reprehenderit aut harum
-                        hic impedit dignissimos minus, quidem et mollitia optio ducimus consectetur quas odio doloremque
-                        fugiat. Dolor, quia doloremque?
-                        Enim nihil unde eos similique culpa quod nemo ad, nam ipsa est perspiciatis possimus? Incidunt,
-                        suscipit ipsum. Suscipit odio inventore, atque possimus optio illo, molestias, veritatis
-                        accusamus omnis laborum expedita.
-                        Nisi debitis, accusamus consectetur doloribus, necessitatibus placeat odit aperiam
-                        exercitationem inventore asperiores perspiciatis non sed quam cumque, ipsa quod iste vitae.
-                        Cumque culpa, nemo iste debitis ullam commodi in quidem.
-                        Fuga aspernatur explicabo aliquid iusto deleniti rem ea. Unde voluptatum ut optio aliquid
-                        reiciendis fugit molestiae eius iure quis ducimus. Nobis porro quia nostrum repellendus deleniti
-                        accusamus neque ab consequuntur.</p>
+        <nav class="navbar navbar-expand-lg bg-body fixed-top" data-bs-theme="dark"> <!--navbar-->
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="./index.html"><i class="bi bi-film"></i> Flixify</a>
+                <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active bg-danger" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorías
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="animation_main.html">Animación</a></li>
+                                <li><a class="dropdown-item" href="superhero_main.html">Superhéroes</a>
+                                </li>
+                                <li><a class="dropdown-item" href="acercade.html">Categoría 3</a></li>
+                                <li><a class="dropdown-item" href="#">Categoría 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" style="min-width: 25vw;" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar película o serie"
+                            aria-label="Buscar">
+                        <button class="btn btn-outline-warning me-2" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <br>
+                    <form class="d-flex justify-content-end" role="login">
+                        <a class="btn btn-outline-danger me-2" type="submit" href="./login.html">Iniciar
+                            Sesión</a>
+                        <a class="btn btn-danger me-2" type="submit" href="./acercade.html">Registrarse</a>
+                    </form>
                 </div>
             </div>
-            <div class="container mt-5">
-                <div class="d-flex justify-content-center align-items-center">
-                    <h1 class="display-6 ">.gitignore, quiénes somos</h1>
+        </nav>
+        <div class="container-marketing justify-content-center">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2><b>Quiénes somos?</b>
+                    </h2>
+                    <p class="lead">
+                        Gitignore cuenta con un equipo de profesionales altamente capacitados en el área de
+                        desarrollo web y diseño gráfico. Con una amplia experiencia en la industria quienes han
+                        trabajado en
+                        una
+                        variedad de
+                        proyectos web alrededeor del mundo.
+                        El equipo es conocido por su enfoque personalizado y por trabajar en estrecha colaboración con
+                        sus
+                        clientes
+                        para crear soluciones que se adapten a sus necesidades específicas. Su filosofía de trabajo se
+                        basa
+                        en la
+                        comunicación constante y en la implementación de las últimas tecnologías y herramientas para
+                        garantizar que
+                        cada
+                        proyecto sea un éxito.<br>
+                        Como equipo creemos que llegar juntos.. solo fue el principio. </p>
                 </div>
-                <div class="row d-flex justify-content-between">
-                    <div class="col-lg-6 mt-4">
-                        <div class="card border-light mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="https://i.pinimg.com/564x/fb/62/5d/fb625d7e5dfdcfcd379c5d199a52ed12.jpg"
-                                        class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title">Fede</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural
-                                            lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                ago</small></p>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <button type="button" class="btn btn-dark"><i class="bi bi-github"></i></button>
-                                        <button type="button" class="btn btn-primary"><i
-                                                class="bi bi-facebook"></i></button>
-                                        <button type="button" class="btn btn-danger"><i
-                                                class="bi bi-instagram"></i></button>
-                                        <button type="button" class="btn btn-info text-light"><i
-                                                class="bi bi-twitter"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="card border-light mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="https://i.pinimg.com/564x/fb/62/5d/fb625d7e5dfdcfcd379c5d199a52ed12.jpg"
-                                        class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title">Agu</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural
-                                            lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                ago</small></p>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <button type="button" class="btn btn-dark"><i class="bi bi-github"></i></button>
-                                        <button type="button" class="btn btn-primary"><i
-                                                class="bi bi-facebook"></i></button>
-                                        <button type="button" class="btn btn-danger"><i
-                                                class="bi bi-instagram"></i></button>
-                                        <button type="button" class="btn btn-info text-light"><i
-                                                class="bi bi-twitter"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="card border-light mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="https://i.pinimg.com/564x/fb/62/5d/fb625d7e5dfdcfcd379c5d199a52ed12.jpg"
-                                        class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title">Vale</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural
-                                            lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                ago</small></p>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <button type="button" class="btn btn-dark"><i class="bi bi-github"></i></button>
-                                        <button type="button" class="btn btn-primary"><i
-                                                class="bi bi-facebook"></i></button>
-                                        <button type="button" class="btn btn-danger"><i
-                                                class="bi bi-instagram"></i></button>
-                                        <button type="button" class="btn btn-info text-light"><i
-                                                class="bi bi-twitter"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="card border-light mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="https://i.pinimg.com/564x/fb/62/5d/fb625d7e5dfdcfcd379c5d199a52ed12.jpg"
-                                        class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title">Diego</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural
-                                            lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                ago</small></p>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <button type="button" class="btn btn-dark"><i class="bi bi-github"></i></button>
-                                        <button type="button" class="btn btn-primary"><i
-                                                class="bi bi-facebook"></i></button>
-                                        <button type="button" class="btn btn-danger"><i
-                                                class="bi bi-instagram"></i></button>
-                                        <button type="button" class="btn btn-info text-light"><i
-                                                class="bi bi-twitter"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="card border-light mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="https://i.pinimg.com/564x/fb/62/5d/fb625d7e5dfdcfcd379c5d199a52ed12.jpg"
-                                        class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-header text-center">
-                                        <h5 class="card-title">Mar</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural
-                                            lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins
-                                                ago</small></p>
-                                    </div>
-                                    <div class="card-footer text-center">
-                                        <button type="button" class="btn btn-dark"><i class="bi bi-github"></i></button>
-                                        <button type="button" class="btn btn-primary"><i
-                                                class="bi bi-facebook"></i></button>
-                                        <button type="button" class="btn btn-danger"><i
-                                                class="bi bi-instagram"></i></button>
-                                        <button type="button" class="btn btn-info text-light"><i
-                                                class="bi bi-twitter"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="imagen-padding col-md-4 ">
+                    <img src="https://www.vox-web.com.ar/wp-content/themes/vox/images/foco-marketing.jpg" width="300"
+                        height="300">
                 </div>
             </div>
 
-        </section>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle " width="140" height="140"
+                        src="./img/acercade/fede.jpg">
+
+                    <h2 class="fw-normal text-align">Federico Khouri</h2>
+                    <p>
+                        El Scrum Master trabaja en estrecha colaboración con el equipo Scrum para facilitar y mejorar su
+                        rendimiento.</p>
+                    <p><a class="btn btn-danger" href="#">Desarrollador Web &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        src="./img/acercade/diego.jpg">
+
+                    <h2 class="fw-normal">Diego Diaz </h2>
+                    <p> Se especializa en la creación y desarrollo de sitios web y aplicaciones web utilizando diversas
+                        tecnicas
+                        para alcanzar sus objetivos. </p>
+                    <p><a class="btn btn-danger" href="#">Desarrollador web &raquo;</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        src="./img/acercade/maribel.jpg">
+
+
+                    <h2 class="fw-normal">Maribel Ardiles</h2>
+                    <p>Su objetivo es crear soluciones web funcionales,
+                        atractivas y de calidad para los usuarios.</p>
+                    <p><a class="btn btn-danger" href="#">Desarrolador Web &raquo;</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        src="./img/acercade/vale.jpg">
+
+                    <h2 class="fw-normal">Valentina Muratore</h2>
+                    <p>Trabaja para convertir ideas y requisitos en realidad digital, utilizando su experiencia en
+                        programación para
+                        desarrollar soluciones web efectivas.</p>
+                    <p><a class="btn btn-danger" href="#">Desarrolador Web &raquo;</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                        src="./img/acercade/agu.jpg">
+
+                    <h2 class="fw-normal">Agustin Artaza</h2>
+                    <p>Utiliza una variedad de tecnologías y lenguajes de programación para crear
+                        soluciones funcionales y
+                        visualmente atractivas.
+                    </p>
+                    <p><a class="btn btn-danger" href="#">Desarrollador web &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <footer class="bg-dark text-light pt-5 pb-4"> <!-- footer -->
+            <div class="container-fluid text-center text-md-start">
+                <div class="row text-center text-md-start">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-danger"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor"
+                                class="bi bi-film" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z" />
+                            </svg> Flixify</h5>
+                        <hr class="mb-4">
+                        <p>
+                            La plataforma de streaming con el mejor contenido actualizado y personalizado para ti.</p>
+                        <p>¡Disfruta de películas y series exclusivas!</p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Inicio</h5>
+                        <hr class="mb-4">
+                        <p>
+                            <a href="#" class="text-light">Cuenta</a>
+                        </p>
+
+                        <p>
+                            <a href="#" class="text-light">Peliculas</a>
+                        </p>
+
+                        <p>
+                            <a href="#" class="text-light">Series</a>
+                        </p>
+
+                        <p>
+                            <a href="#" class="text-light">Descargas</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-danger">Conocenos</h5>
+                        <hr class="mb-4">
+                        <p>
+                            <a href="#" class="text-light">Acerca de nosotros</a>
+                        </p>
+
+                        <p>
+                            <a href="./contacto.html" class="text-light">Contactanos</a>
+                        </p>
+                        <p>
+                            <a href="404.html" class="text-light">Sugerencias</a>
+                        </p>
+                        <p>
+                            <a href="404.html" class="text-light">Politica de privacidad</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-danger">contacto</h5>
+                        <hr class="mb-4">
+                        <p>
+                            <li class="fas fa-home me-3"></li> Flixify
+                        </p>
+                        <p>
+                            <li class="fas fa-envelope me-3"></li> Flixify@gmail.com
+                        </p>
+                        <p>
+                            <li class="fas fa-phone me-3"></li> 381-5555555
+                        </p>
+                    </div>
+
+                    <hr class="mb-4">
+
+                    <div class="text-center mb-2">
+                        <p>
+                            Copyright&#169; Todos los derechos reservados a
+                            <a href="#">
+                                <b><strong class="text-danger">Flixify</strong></b>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-light"> <i class="fab fa-facebook"></i> FlixifyArg</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-light"> <i class="fab fa-instagram"></i> FlixifyArg</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-light"> <i class="fab fa-twitter"></i> FlixifyArg</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-light"> <i class="fab fa-google-plus"></i> FlixifyArg</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

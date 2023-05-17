@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-padding {
+  padding-top: 30px;
+}
+
+.container-marketing {
+  margin: 30px;
+  padding: 30px;
+}
+
+.row {
+  padding-top: 25px;
+  padding-bottom: 65px;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}

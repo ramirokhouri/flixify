@@ -6,11 +6,12 @@
 /*estilos del header*/
 
 .header {
+  padding-top: 5vh;
   height: 85vh;
   background-position: center center;
   background-size: cover;
   background-image: linear-gradient(transparent, rgba(33, 37, 41, 1)),
-    url("../img/main/main_s.jpg");
+    url("../img/main/endgame_s.webp");
 }
 
 .img-gallery {
@@ -21,14 +22,14 @@
 @media (min-width: 768px) {
   .header {
     background-image: linear-gradient(transparent, rgba(33, 37, 41, 1)),
-      url("../img/main/main_m.jpg");
+      url("../img/main/endgame_l.jpg");
   }
 }
 
 @media (min-width: 1200px) {
   .header {
     background-image: linear-gradient(transparent, rgba(33, 37, 41, 1)),
-      url("../img/main/main_l.jpg");
+      url("../img/main/endgame_xl.jpg");
   }
 }
 
@@ -86,11 +87,18 @@
   height: 17vh;
 }
 
+.actor-carousel img {
+  height: 45vh;
+}
+
 @media (min-width: 920px) {
   .movie-carousel img {
     min-height: 30vh;
   }
   .category-carousel img {
     min-height: 25vh;
+  }
+  .actor-carousel img {
+    min-height: 50vh;
   }
 }
